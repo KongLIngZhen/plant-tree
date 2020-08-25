@@ -1,0 +1,22 @@
+/* 登录页样式 */
+@import '../../styles/theme.scss';
+
+.App-login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient($basics-color, $basics-bg-color);
+
+    .entrance {
+        width: 18%;
+        height: 18%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: inherit;
+    }
+}
